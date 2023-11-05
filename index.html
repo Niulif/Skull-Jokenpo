@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Griffy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Skull Jokenpo</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>JOKENPO</h1>
+        <div class="buttons">        
+            <button id="rock" onclick="playHuman('rock')" type="button"><img src="./assets/rock.jpg"></button>
+            <button id="paper" onclick="playHuman('paper')" type="button"><img src="./assets/paper.jpg"></button>
+            <button id="scissors" onclick="playHuman('scissors')" type="button"><img src="./assets/scissors.jpg"></button>
+        </div>
+        <p class="result"></p>
+        <p class="your-score"> You: <span id="human-score"> 0</span></p>
+        <p class="machine-score"> Skull: <span id="machine-score"> 0</span></p>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

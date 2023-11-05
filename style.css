@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'griffy', sans-serif;
+
+}
+
+body{
+    background-image: url(./assets/halloween-wallpaper-with-cemetery-night.jpg);
+    background-size:cover;
+    display: flex;
+    justify-content: center; /*horizontal*/
+    align-items: center; /*vertical*/
+    min-height: 100vh;
+}
+
+.container{
+    padding: 20px;
+    background: rgba(40, 109, 121, 0.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 80px;
+    text-shadow: 6px 6px 8px #fff;
+    margin-bottom: 40px;
+}
+
+.buttons{
+    display: inline;
+    padding: 30px;
+}
+
+button{
+    border: none;     
+    cursor: pointer;
+    transition: opacity 0.4s ease-in-out;    
+}
+button img {
+    display: flex;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.5;
+}
+
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 36px;
+    text-shadow: 4px 4px 7px #fff;
+}
+
+.your-score span{
+    color: #0000ff;
+}
+
+.machine-score span{
+    color: #ff0000;
+}
